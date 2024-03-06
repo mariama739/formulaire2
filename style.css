@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(70deg,#4B2C52, #BF669B ) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0 auto; 
+}
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    object-fit: cover;
+    /* position: relative; */
+}
+.conten{
+    max-width: 850px;
+    margin: auto; 
+    display: flex;
+    padding-top: 55px;
+}
+.droite{
+    background-color: rgb(19, 19, 73);
+    height: 500px;
+    width: 400px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.p{
+   background-color: #bf669b83 ;
+   text-align: center;
+   position: relative;
+   bottom: 68px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+}
+label{  
+    color: white;
+    margin-left: 30px;
+}
+input{
+    margin-left: 100px;
+    padding: 10px; 
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color:  rgb(19, 19, 73);
+   
+}
+span{ 
+    color: white;
+    margin-left: 60px;
+}
+button{
+    background: linear-gradient(#BF669B,rgb(19, 19, 73));
+    width: 200px;
+    height: 50px;
+    border: none;
+     position: relative;
+    left: 50px;
+   top: 20PX; 
+   color: white;
+}
+h2{
+    color: #BF669B;
+    padding: 30px;
+     padding-left: 125px;
+    padding-bottom: 20px; 
+}
+.name{
+    margin-left: 90px; 
+}
+.number{
+     margin-left: 90px;
+}
+.name2{
+    margin-left: 70px;
+   
+}
+i{
+    margin-left: 5px;
+}
+body, html{
+    overflow-x: hidden;
+}
+@media screen and (max-width: 600px){
+    .conten{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container{
+        width: 100%;  
+    }
+    .conten form{
+        width: 100%;    
+    }
+    .conten .gauche{
+        width: 100%;
+    }
+    
+}
