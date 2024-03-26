@@ -105,6 +105,13 @@ body, html{
     }
     .conten .gauche{
         width: 100%;
+    } 
+}
+@media (min-width:415px) and (max-width:600px){
+    .conten form{
+        width: 100%;    
     }
-    
+    .container{
+        padding: 7PX;
+    } 
 }
