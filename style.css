@@ -107,11 +107,11 @@ body, html{
         width: 100%;
     } 
 }
-@media (min-width:415px) and (max-width:600px){
-    .conten form{
-        width: 100%;    
+@media screen  and (min-width:401px) and (max-width:600px){
+    .droite{
+        width: 100%;
     }
-    .container{
-        padding: 7PX;
-    } 
+    .gauche img{
+        width: 100%;
+    }
 }
